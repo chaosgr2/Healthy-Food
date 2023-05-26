@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'HR';
+    src: url(../fonts/Helvetica/HelveticaNeue-Roman.otf) format('otf');
+}
+@font-face {
+    font-family: 'HCBlack';
+    src: url(../fonts/Helvetica/HelveticaNeue-BlackCond.otf) format('opentype');
+}
+@font-face {
+    font-family: 'HCBold';
+    src: url(../fonts/Helvetica/HelveticaNeue-BoldCond.otf) format('opentype');
+}
+@font-face {
+    font-family: 'RB';
+    src: url(../fonts/roboto/Roboto-Bold.ttf) format('truetype');
+}
