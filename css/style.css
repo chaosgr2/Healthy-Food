@@ -167,7 +167,8 @@ body{
 }
 .about__desc_header, 
 .Work__header,
-.dishes__header
+.dishes__header,
+.chefs__header
 {
     position: relative;
     max-width: 577px;
@@ -175,7 +176,8 @@ body{
 }
 .about__desc-h_big, 
 .Work__header-h_big,
-.dishes__header-h_big
+.dishes__header-h_big,
+.chefs__header-h_big
 {
     font-family: var(--HCBL);
     font-size: 100px;
@@ -184,7 +186,8 @@ body{
 }
 .about__desc-h_sm, 
 .Work__header-h_sm,
-.dishes__header-h_sm
+.dishes__header-h_sm,
+.chefs__header-h_sm
 {
     top: 50%;
     transform: translate(0, -50%);
@@ -219,7 +222,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-.work{
+.work, 
+.chefs{
     padding: 0 0 119px;
 }
 .work__wrap{
@@ -231,7 +235,9 @@ body{
 }
 .Work__header,
 .dishes__header,
-.dishes__wrap{
+.dishes__wrap,
+.chefs__header,
+.chefs__wrap{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,6 +304,9 @@ body{
     letter-spacing: -0.1625px;
     color: rgba(255, 255, 255, 0.5);
 }
+.dishes{
+        padding: 0 0 119px;
+}
 .dishes__wrap{
     flex-direction: column;
 }
@@ -363,8 +372,7 @@ body{
     justify-content: center;
     gap: 11px;
 }
-.dishes__menu_item_rating
- {
+.dishes__menu_item_rating{
     display: flex;
     align-items: center;
     width: 120px;
@@ -394,7 +402,7 @@ body{
   {
       color: orange;
     }
-   .dishes__menu_item_rating label:active::before
+   .dishes__menu_item_rating:nth-child(3) label:active::before
  {
     transform:scale(1.1);
   }
@@ -442,5 +450,4 @@ body{
 .dishes__menu_item_nav>
 .dishes__menu_item_nav-btn a{
     color: #252525;
-
 }
