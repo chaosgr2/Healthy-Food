@@ -307,10 +307,12 @@ body{
 .dishes{
         padding: 0 0 119px;
 }
-.dishes__wrap{
+.dishes__wrap,
+.chefs__wrap{
     flex-direction: column;
 }
-.dish-hr{
+.dish-hr,
+.chefs-hr{
     border-bottom: 2px solid #34C759;
     width: 60px;
     margin: 28px 0 60px;
@@ -450,4 +452,36 @@ body{
 .dishes__menu_item_nav>
 .dishes__menu_item_nav-btn a{
     color: #252525;
+}
+.chefs__portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.chefs__portfolio_name{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 0 24px;
+}
+.chefs__name{
+    font-family: var(--HR);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+}
+.chef__prof{
+    font-family: var(--HR);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.chefs__portfolio_work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
