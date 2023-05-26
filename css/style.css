@@ -527,9 +527,8 @@ body{
 .recipes__meal-h{
     padding: 0 15px;
     margin: 0 0 65px;
-    background: #000000;
+    background: #00000030;
     mix-blend-mode: normal;
-    opacity: 0.3;
     font-family: var(--HCBL);
     font-size: 10px;
     line-height: 25px;
@@ -607,9 +606,8 @@ body{
     gap: 15px;
 }
 .recipes__sm_meal{
-    background: #000000;
+    background: #00000030;
     mix-blend-mode: normal;
-    opacity: 0.3;
     padding: 0 17px;
 }
 .recipes__sm_stat-h{
