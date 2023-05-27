@@ -200,8 +200,8 @@ body {
 .Work__header-h_big,
 .dishes__header-h_big,
 .chefs__header-h_big,
-.recipes__header-h_big, 
-.social__header-h_big{
+.recipes__header-h_big,
+.social__header-h_big {
     font-family: var(--HCBL);
     font-size: 100px;
     color: #303030;
@@ -253,7 +253,7 @@ body {
 .work,
 .chefs,
 .recipes,
-.social{
+.social {
     padding: 0 0 119px;
 }
 
@@ -499,7 +499,7 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.dishes__menu_item:hover >.dishes__menu_bt-wrap> .dishes__menu_item_nav>.dishes__menu_item_nav-btn a {
+.dishes__menu_item:hover>.dishes__menu_bt-wrap>.dishes__menu_item_nav>.dishes__menu_item_nav-btn a {
     background: #34C759;
     transition: 0.5s;
 }
@@ -716,16 +716,19 @@ body {
 .black_text span {
     color: #000000;
 }
-.social__wrap{
+
+.social__wrap {
     gap: 30px;
 }
-.social__item_wrap{
+
+.social__item_wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.social__item{
+
+.social__item {
     max-width: 350px;
     height: 330px;
     display: flex;
@@ -735,7 +738,8 @@ body {
     background: #262626;
     border-radius: 6px;
 }
-.social__menu{
+
+.social__menu {
     width: 100%;
     display: flex;
     align-items: center;
@@ -743,7 +747,8 @@ body {
     padding: 30px 30px 23px;
 
 }
-.social__link{
+
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -753,7 +758,8 @@ body {
     line-height: 30px;
     color: #BFBFBF;
 }
-.social__icon{
+
+.social__icon {
     height: 40px;
     width: 40px;
     background: #262626;
@@ -763,12 +769,14 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .fa-twitter,
 .fa-facebook-f,
-.fa-instagram{
+.fa-instagram {
     color: #737373;
 }
-.social__btn{
+
+.social__btn {
     width: 100px;
     font-family: var(--HCBL);
     font-size: 10px;
@@ -781,53 +789,63 @@ body {
     border: 2px solid #303030;
     border-radius: 30px;
 }
-.social__btn:hover{
+
+.social__btn:hover {
     background: #34C759;
     color: #000000;
     transition: 0.3s;
 }
-.social_hr{
+
+.social_hr {
     max-width: 350px;
     width: 100%;
     border-bottom: 2px solid #303030;
 }
-.social__prew{
+
+.social__prew {
     padding: 0 30px 30px;
     overflow-y: scroll;
 }
-.social__coment{
+
+.social__coment {
     margin: 0 0 10px;
 }
-.social__coment_date{
+
+.social__coment_date {
     font-family: var(--HR);
     font-size: 14px;
     line-height: 30px;
     color: #737373;
     margin: 0 0 10px;
 }
-.social__coment_desc{
+
+.social__coment_desc {
     font-family: var(--HR);
     font-size: 14px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.7);
     margin: 0 0 10px;
 }
-.social__coment_link{
-    
+
+.social__coment_link {
+
     font-family: var(--HR);
     font-size: 14px;
     line-height: 30px;
     color: #34C759;
 }
-.social__stor{
+
+.social__stor {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.social__prew_inst{
+
+.social__prew_inst {
     overflow-y: scroll;
 }
-.social__inst-wrap{
+
+.social__inst-wrap {
     height: 110px;
     width: 110px;
     display: flex;
@@ -835,7 +853,8 @@ body {
     justify-content: center;
     position: relative;
 }
-.social__inst-next{
+
+.social__inst-next {
     display: none;
     /* display: flex; */
     align-items: center;
@@ -847,7 +866,8 @@ body {
     margin: 0 auto;
     position: absolute;
 }
-.social__inst-wrap:hover>.social__inst-next{
+
+.social__inst-wrap:hover>.social__inst-next {
     display: flex;
 
 }
