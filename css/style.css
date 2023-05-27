@@ -871,3 +871,21 @@ body {
     display: flex;
 
 }
+.footer{
+    padding: 30px 0;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.footer__copyryte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.footer__copyryte-p{
+    font-family: var(--HR);
+    font-size: 12px;
+    line-height: 13px;
+    color: #737373;
+}
